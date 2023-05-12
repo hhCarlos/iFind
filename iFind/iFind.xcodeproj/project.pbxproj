@@ -11,6 +11,7 @@
 		ADEB8D692A0DAD230067D6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB8D682A0DAD230067D6CA /* ContentView.swift */; };
 		ADEB8D6B2A0DAD250067D6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB8D6A2A0DAD250067D6CA /* Assets.xcassets */; };
 		ADEB8D6E2A0DAD250067D6CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEB8D6D2A0DAD250067D6CA /* Preview Assets.xcassets */; };
+		ADEB8D752A0DB10F0067D6CA /* MusicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB8D742A0DB10F0067D6CA /* MusicListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ADEB8D682A0DAD230067D6CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADEB8D6A2A0DAD250067D6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADEB8D6D2A0DAD250067D6CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADEB8D742A0DB10F0067D6CA /* MusicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		ADEB8D5A2A0DAD230067D6CA = {
 			isa = PBXGroup;
 			children = (
+				ADEB8D742A0DB10F0067D6CA /* MusicListView.swift */,
 				ADEB8D652A0DAD230067D6CA /* iFind */,
 				ADEB8D642A0DAD230067D6CA /* Products */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				ADEB8D692A0DAD230067D6CA /* ContentView.swift in Sources */,
 				ADEB8D672A0DAD230067D6CA /* iFindApp.swift in Sources */,
+				ADEB8D752A0DB10F0067D6CA /* MusicListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

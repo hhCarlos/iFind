@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var artista = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            Form {
+                Section {
+                    TextField("Write your favorite artist", text: $artista)
+                }
+                
+                Section {
+                    NavigationLink {
+                        MusicListView(artista: artista)
+                    } label: {
+                        Text("Find")
+                    }
+                }
+                .disabled(artista.isEmpty)
+            }
+            .navigationTitle("iFind Music")
         }
-        .padding()
     }
 }
 
